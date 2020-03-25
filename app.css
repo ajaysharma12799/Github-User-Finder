@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+.navbar {
+    background-color: pink !important;
+}
+.searchContainer input {
+    width: 50%;
+    margin: 0 auto;
+}
+input[type="text"] {
+    border-radius: 50px;
+}
+input[placeholder] {
+    font-weight: bold;
+    text-align: center;
+}
+.img-fluid {
+    border-radius: 50%;
+}
+.badge{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.list-group-item {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid blue;
+}
